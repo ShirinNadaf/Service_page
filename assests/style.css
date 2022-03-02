@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .container{
+    margin: 0 auto;
+}
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1170px;
+    }   
+}
+@media screen and (min-width:1600px){
+    .container{
+        max-width: 1550px;
+    }   
+} */
+
+/***start banner ***/
+.banner a,
+.contact_us
+{
+    border:1px solid red;
+    padding:15px 40px;
+    background-color: red;
+    color: #fff;
+    
+}
+.banner a:hover,
+.contact_us:hover{
+    color: red;
+    background-color: #ffff;
+}
+a{
+    text-decoration: none;
+}
+
+.banner{
+    background-repeat: no-repeat;
+    background-image: url(./Image/Rectangle195.png);
+    width: 100%;
+    height: 780px;
+    position: relative;
+    background-size: cover;
+    display: flex;
+}
+.banner__about{  
+    width: 710px;
+    height: 410px;
+    padding-top: 50px;
+    padding-left: 81px;
+    padding-bottom: 50px;
+    color: #ffff;
+    background-color:#0E3482;
+    margin: 132px 0;
+}
+.banner .banner__case{
+    position: relative;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: normal;
+    margin-left: 17px;
+    padding-left: 17px;
+}
+.banner .banner__case::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 48px;
+    left: -14px;
+    top: -9px;
+    background: linear-gradient(
+    180deg, #FFE11A 0%, #FE0000 112.5%);
+}
+.banner h1{
+    padding: 10px 0;
+    font-size: 38px;
+    color:#ffff;
+    text-transform: capitalize;
+}
+.banner .banner__dis{
+    /* padding: 15px 0; */
+    /* padding-bottom: 40px; */
+    font-size: 24px;
+    font-family: 'Open Sans';
+    color:#ffff;
+    line-height: 38px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+.banner .banner__dis span{
+    display: block;
+}
+.banner a{
+    /* margin-top: 18px; */
+    color: #ffff;
+    margin-bottom: 40px;
+    display: inline-block;
+    margin-top: 18px;
+    color: #ffff;
+}
+.banner a .arrow{
+    width: 35px;
+    margin-left: 12px;
+    box-sizing: border-box;
+    color: #ffff;  
+}
+
+
+/***end start banner ***/
+
+/******Start 2nd heading ***/
+.appheading{
+position: relative;
+margin-top: 6px;
+font-family: Open Sans;
+font-style: normal;
+font-size: 15px;
+line-height: 20px;
+text-transform: capitalize;
+color: #1E1E1E;
+}
+.appheading span{
+    display: block;
+}
+.appheading ::after{
+position: absolute;
+content: "";
+width: 39px;
+height: 0px;
+left: 108px;
+top: 20px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+transform: rotate(90deg);
+}
+
+.hvr-icon-bob:before {
+    content: "\f077";
+    position: absolute;
+    right: 1em;
+    padding: 0 1px;
+    font-family: FontAwesome;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+.nav-link
+{
+font-size: 15px;
+line-height: 20px;
+text-transform: capitalize;
+color: #646464;
+
+}
+/******End Start 2nd heading ***/
+/***card ***/
+
+.card{
+/* height: 376px;
+width: 577px;
+left: 432px; */
+margin: 0 auto;
+
+}
+.card h1{
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+}
+.card h1 span{
+    display: block;
+}
+.card-text{
+height: 149px;
+width: 533px;
+left: 454px;
+top: 884px;   
+}
+.btnD1 {
+    display: inline-block;
+    margin: 1em 0 0;
+    background: #f30e0e;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+  }
+  .btnD1:hover{
+      color:#f30e0e;
+      background: #ffffff;
+  }
+
+/***end card ***/
